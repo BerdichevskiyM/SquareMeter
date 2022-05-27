@@ -11,7 +11,7 @@ namespace SquareMeter
         float this[int sideI] { get; set; }
 
         /// <summary>
-        /// If side index is wrong, throw exception.
+        /// If side index is wrong, throws exception.
         /// </summary>
         /// <param name="sideI"></param>
         void CheckSideI(int sideI);
